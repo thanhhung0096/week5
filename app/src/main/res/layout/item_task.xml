@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:id="@+id/id_tem_task"
+    android:layout_height="80dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvNameTask"
+        android:text="Name"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDateTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNameTask"
+        android:text="01/01/1996" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="High"
+        android:id="@+id/btnPriorityTask"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
